@@ -1,7 +1,11 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="layout-background">
     <!-- Header with Green Background -->
+<<<<<<< HEAD
     <q-header elevated class="bg-teal-5">
+=======
+    <q-header elevated class="bg-green-5">
+>>>>>>> 627c934 (KRAJ)
       <q-toolbar>
         <q-btn
           flat
@@ -13,7 +17,11 @@
         />
 
         <q-toolbar-title>
+<<<<<<< HEAD
           Plantie Admin
+=======
+          MindMeal Admin
+>>>>>>> 627c934 (KRAJ)
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -65,7 +73,11 @@ defineOptions({
 })
 
 let title = computed(() => {
+<<<<<<< HEAD
   return "Plantie admin"
+=======
+  return "MindMeal admin"
+>>>>>>> 627c934 (KRAJ)
 })
 
 const linksList = [
@@ -78,6 +90,7 @@ const linksList = [
   {
     title: 'Korisnici',
     caption: 'Upravljanje korisnicima',
+<<<<<<< HEAD
     icon: 'user',
     to: '/admin/korisnici'
   },
@@ -99,6 +112,17 @@ const linksList = [
     icon: 'local_library',
     to: '/admin/objave'
   }
+=======
+    icon: 'accessibility',
+    to: '/admin/korisnici'
+  },
+  {
+    title: 'Planovi prehrane',
+    caption: 'Upravljanje planovima prehrane',
+    icon: 'assignment',
+    to: '/admin/narudzbe'
+  },
+>>>>>>> 627c934 (KRAJ)
 ]
 
 const leftDrawerOpen = ref(false)
@@ -110,7 +134,11 @@ function toggleLeftDrawer () {
 
 <style scoped>
 .layout-background {
+<<<<<<< HEAD
   background-color: #DBFFE9; /* Set very light green background for the whole layout */
+=======
+  background-color: #4caf50; /* Set very light green background for the whole layout */
+>>>>>>> 627c934 (KRAJ)
 }
 
 * {
@@ -119,6 +147,10 @@ function toggleLeftDrawer () {
 
 /* Specific adjustments for individual elements if needed */
 q-toolbar-title, q-item-label, q-btn {
+<<<<<<< HEAD
   color: #3E6F52; /* Make sure titles and labels also have this text color */
+=======
+  color: #4caf50; /* Make sure titles and labels also have this text color */
+>>>>>>> 627c934 (KRAJ)
 }
 </style>

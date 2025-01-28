@@ -3,6 +3,7 @@
     <!-- Title and Subtitle Wrapper -->
     <div class="title-container">
       <!-- Title -->
+<<<<<<< HEAD
       <h1 class="title">Dobrodošli admini!</h1>
 
       <!-- Description -->
@@ -11,6 +12,16 @@
 
     <!-- Logo Image -->
     <img alt="Plantie Logo" src="~assets/Plantie_DMudric.svg" class="logo" />
+=======
+      <h1 class="title">Admin stranica!</h1>
+
+      <!-- Description -->
+      <p class="description">Tu upravljate korisnicima i planovima prehrane.</p>
+    </div>
+
+    <!-- Logo Image -->
+    <img alt="Logo" src="~assets/logo.png" class="logo" />
+>>>>>>> 627c934 (KRAJ)
   </q-page>
 </template>
 

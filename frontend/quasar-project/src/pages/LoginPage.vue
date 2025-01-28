@@ -30,6 +30,7 @@
             />
           </q-card-section>
         </q-card>
+<<<<<<< HEAD
         <!-- Stručnjak -->
         <q-card class="bg-light-green text-dark" style="width: 300px">
           <q-card-section>
@@ -57,6 +58,8 @@
             />
           </q-card-section>
         </q-card>
+=======
+>>>>>>> 627c934 (KRAJ)
 
         <!-- Admin -->
         <q-card class="bg-light-green text-dark" style="width: 300px">
@@ -116,7 +119,11 @@ export default {
       alert(error.response ? error.response.data.error : 'Došlo je do greške pri prijavi.');
     }
   } else {
+<<<<<<< HEAD
     alert('Molimo unesite ispravan ID i lozinku! U slučaju zaborava ID-ja ili lozinke kontaktirajte nas na plantie@veleri.hr');
+=======
+    alert('Molimo unesite ispravan ID i lozinku. U slučaju problema kontaktirajte nas na support@mindmeal.com');
+>>>>>>> 627c934 (KRAJ)
   }
 },
 
@@ -133,7 +140,11 @@ export default {
           if (response.data && response.data[0].id_exists === 1) {
             this.$router.push({ name: 'AdminPage' });
           } else {
+<<<<<<< HEAD
             alert('Ne, ne! Neispravan ID admina.');
+=======
+            alert('Neispravan ID admina.');
+>>>>>>> 627c934 (KRAJ)
           }
         } catch (error) {
           console.error('Error during admin login:', error);  // Ispisuje cijeli error objekt

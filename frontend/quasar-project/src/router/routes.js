@@ -18,10 +18,16 @@ const routes = [
     component: () => import('layouts/Admin.vue'),
     children: [
       { path: '', component: () => import('pages/AdminPage.vue'), name: 'AdminPage' },
+<<<<<<< HEAD
       { path: '/admin/biljke', component: () => import('pages/UpravljanjeBiljem.vue') },
       { path: '/admin/korisnici', component: () => import('pages/UpravljanjeKorisnicima.vue') },
       { path: '/admin/narudzbe', component: () => import('pages/UpravljanjeNarudžbama.vue') },
       { path: '/admin/objave', component: () => import('pages/UpravljanjeObjavama.vue') }]
+=======
+      { path: '/admin/korisnici', component: () => import('pages/UpravljanjeKorisnicima.vue') },
+      { path: '/admin/narudzbe', component: () => import('pages/UpravljanjeNarudzbama.vue') }
+    ]
+>>>>>>> 627c934 (KRAJ)
   },
   // Ruta za 404 stranicu:
   {
@@ -31,4 +37,7 @@ const routes = [
 ]
 
 export default routes
+<<<<<<< HEAD
 
+=======
+>>>>>>> 627c934 (KRAJ)

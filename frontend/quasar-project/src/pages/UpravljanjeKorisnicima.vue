@@ -119,7 +119,11 @@ export default {
 
     const ukloniKorisnika = async (ID_korisnika) => {
       try {
+<<<<<<< HEAD
         await axios.delete(`http://localhost:3000/api/Korisnik/${ID_korisnika}`);
+=======
+        await axios.delete(`http://localhost:3000/api/korisnici/${ID_korisnika}`);
+>>>>>>> 627c934 (KRAJ)
         korisnici.value = korisnici.value.filter(k => k.ID_korisnika !== ID_korisnika);
         prikaziUkloniKorisnika.value = false;
       } catch (error) {
