@@ -1,0 +1,5 @@
+<q-img
+  :src="file:///C:/Users/emmas/Desktop/faks/slikeee/garden-rose-red-pink-56866.webp"
+  alt="Slika ruže"
+  style="max-height: 200px; object-fit: cover"
+/>
